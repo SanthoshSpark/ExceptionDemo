@@ -1,0 +1,29 @@
+Exception handling
+
+try {
+
+	// any code that might throw exception(s)
+}
+catch(.1.) {
+	// here we have to take care of exception
+	// log the exception(into text file, xml file, json file)
+}
+catch(.2.) {
+		// here we have to take care of exception
+	// log the exception(into text file, xml file, json file)
+}
+finally {
+	// close other resources 
+}
+
+
+throw
+throws --> we can omit the try..catch blocks if your method 
+throws the exception
+
+User Defined Exception
+
+class MyException extends Exception {
+
+}
+
